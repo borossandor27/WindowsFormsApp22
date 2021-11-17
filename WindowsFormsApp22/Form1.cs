@@ -71,6 +71,7 @@ namespace WindowsFormsApp22
         {
             try
             {
+                //-- módosítás
                 using (StreamReader sr = new StreamReader(adatfajl))
                 {
                     string[] adat = sr.ReadLine().Split(';');
